@@ -9,5 +9,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(source)
 
-find_package(Catch2 3 REQUIRED) # add 'PATHS /path/to/local/install' if required.  
+find_package(Catch2 3 REQUIRED PATHS /Users/danielvega/Desktop/Catch2/install) # add 'PATHS /path/to/local/install' if required.  
 add_subdirectory(test)
